@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBBB1553-EAF0-6575-5F50-797F9FA69F94" name="Sp_Sar">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>CB7D32DE-DE97-FB88-CB6B-398685D451DE</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IME_SAR" id="C9418227-53F4-36C6-7682-5333B57DA7A2">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>53ED6B77-8325-4D08-2E57-6E63D43D5191</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ_SAR" id="4C7BF0E1-41C7-D742-9E19-EBA18531AF50">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>72CCE3DA-833D-AB81-0324-2FB2FCF333DE</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZVANJE_SAR" id="1A368E3B-4E5D-6F5F-1B3A-D1D707F11513">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>204141DA-BBD8-44F0-4AE5-F79D86AE678A</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG" id="71803D86-6338-12B1-9E06-6EEC7632BB86">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>6C7B7FD1-DE8E-5733-2F15-4F2FBA2F56C3</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFCC23F8-4CA5-FA56-14D1-A9198EECEF6D" name="Sp_Sar_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>606E0E00-D6D2-6028-8B07-A8765E84CCF6</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71803D86-6338-12B1-9E06-6EEC7632BB86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

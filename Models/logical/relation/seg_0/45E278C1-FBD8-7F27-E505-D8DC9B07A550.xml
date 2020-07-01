@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dijeli_Se" directorySegmentName="seg_0" id="45E278C1-FBD8-7F27-E505-D8DC9B07A550">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 20:17:34 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<sourcePk>88FF8B1F-5878-16F8-C7A3-D71B4548933B</sourcePk>
+<targetPk>49B2CC39-ADD4-62BA-BFE3-12702ABC6EF8</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0631398F-4560-464F-AC5B-76CDFFBF8DC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02B6BEBE-5C5C-13A1-12F6-BE6D44C5B2E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

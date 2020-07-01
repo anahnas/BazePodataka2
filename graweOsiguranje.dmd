@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="graweOsiguranje" id="374557C9-4E47-D5AA-BDDC-8004111AC176" version="3.5">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 18:14:50 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>374557C9-4E47-D5AA-BDDC-8004111AC176</designId>
+</OSDM_Design>

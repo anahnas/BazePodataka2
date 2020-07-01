@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5982DE7-3A4F-2A44-A425-51E76F7E6A93" name="Koordinator">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>98FBF088-55B0-B782-99F7-EA72C7B402DB</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIF_K" id="A8AC2354-8773-2E4E-00F8-5E88D6338683">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>EF4B0481-C9C4-2FDE-2F15-B7B444C6F774</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MBR" id="2653ECA7-A653-FC58-643B-2CB358950808">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>98050CCA-BACD-A2B4-5226-F9443F1B291A</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3ADD49-DC5D-ED10-9FAF-141855C48795" referredColumn="4AD166F7-F51A-B4EF-5820-1E405365F2B1"/>
+</associations>
+</Column>
+<Column name="PIB" id="6DB865E8-6369-F7A3-0B66-610251632F91">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>E47E5478-D9D0-F8A6-1F43-42FCCB5232F5</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3ADD49-DC5D-ED10-9FAF-141855C48795" referredColumn="D24F6AC4-E0DD-8507-0D25-C4F501224638"/>
+</associations>
+</Column>
+<Column name="INT_BR1" id="741B2D1A-6F6C-0F93-9A5D-47AF69A1F222">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>74410A1B-B333-0FFF-B374-7C81A24A9735</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3ADD49-DC5D-ED10-9FAF-141855C48795" referredColumn="D4C90F59-AD7A-89F3-EB7A-F2E1ACD5397E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13DFFC89-6B55-0397-0BE4-0FF3137182D1" name="Koordinator_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>C16CA979-F3BF-5696-A09D-3DC273735E9B</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2653ECA7-A653-FC58-643B-2CB358950808"/>
+<colUsage columnID="6DB865E8-6369-F7A3-0B66-610251632F91"/>
+<colUsage columnID="741B2D1A-6F6C-0F93-9A5D-47AF69A1F222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E760A3FF-4FA6-0D92-7E18-255195E449C7" name="Koordinator_PKv1">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>EC4AD772-0B16-7C24-05C5-1F72A561762F</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8AC2354-8773-2E4E-00F8-5E88D6338683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA46DCCA-B2D7-525F-AC69-BDA753CE6C04" name="Koordinator_Clan_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>8916EF02-A7A6-290C-2354-467DB87C9652</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2653ECA7-A653-FC58-643B-2CB358950808"/>
+<colUsage columnID="6DB865E8-6369-F7A3-0B66-610251632F91"/>
+<colUsage columnID="741B2D1A-6F6C-0F93-9A5D-47AF69A1F222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

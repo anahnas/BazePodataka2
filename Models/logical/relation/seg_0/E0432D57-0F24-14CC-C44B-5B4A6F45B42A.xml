@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nadgleda" directorySegmentName="seg_0" id="E0432D57-0F24-14CC-C44B-5B4A6F45B42A">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 20:59:34 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<sourcePk>49B2CC39-ADD4-62BA-BFE3-12702ABC6EF8</sourcePk>
+<targetPk>EC4AD772-0B16-7C24-05C5-1F72A561762F</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>02B6BEBE-5C5C-13A1-12F6-BE6D44C5B2E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98FBF088-55B0-B782-99F7-EA72C7B402DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

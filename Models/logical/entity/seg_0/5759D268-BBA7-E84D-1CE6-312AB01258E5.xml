@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5759D268-BBA7-E84D-1CE6-312AB01258E5" name="Mentorise">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:08:23 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_RC" id="F35D17C4-FBEB-2160-6C0C-899BDF39E326">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:11:38 UTC</createdTime>
+<generatorID>FD7B53EF-5D77-564E-D027-AC34862A72C6</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>FAD6B8C1-B439-11CC-F0D5-3D7F5A2D9624</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZ_OB" id="5A31F7A0-BC8C-8566-A352-5BD00B2AF527">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:15:06 UTC</createdTime>
+<generatorID>F1E1CB20-E017-F06A-8D02-8AE87CC9A39E</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>73D944DE-7B6D-3D5C-9D3E-553FEB397AAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PIB" id="765B7CB6-197D-953D-F572-003BA96346BF">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:58:27 UTC</createdTime>
+<generatorID>F1E1CB20-E017-F06A-8D02-8AE87CC9A39E</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>1B5C456B-D735-8A46-FB60-AB366E82A532</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INT_BR1" id="B021B456-C06D-01F7-2573-A1B4F6743CDB">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:58:27 UTC</createdTime>
+<generatorID>F1E1CB20-E017-F06A-8D02-8AE87CC9A39E</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>1FE89A1C-AAC2-9FA9-2F0B-7FCB0AB436A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23B4DC8A-AD2E-45CA-307E-D922C6461239" name="Mentorise PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:11:38 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F35D17C4-FBEB-2160-6C0C-899BDF39E326</attributeRef>
+<attributeRef>5A31F7A0-BC8C-8566-A352-5BD00B2AF527</attributeRef>
+<attributeRef>765B7CB6-197D-953D-F572-003BA96346BF</attributeRef>
+<attributeRef>B021B456-C06D-01F7-2573-A1B4F6743CDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

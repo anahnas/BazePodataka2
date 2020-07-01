@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8599F27F-ECA2-99CE-D1B0-545BDF0A162A" name="LK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>0631398F-4560-464F-AC5B-76CDFFBF8DC6</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PIB" id="46FBF911-8508-CABC-6920-375BB2545013">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>EF856F6D-F9E4-6B2D-C71F-5DBBE664A1A0</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_MJESTA" id="40770F30-5728-7CA5-4B99-10994E4C84F7">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>99CEDABF-FB40-0E46-4884-00AEEEAD9E7E</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Generalna_direkcija_INT_BR" id="1A0AA245-D577-24AE-B310-B06AAEA36D65">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>9B7C8F62-9D0E-B016-2B7F-CF0B83812B6D</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CCCC723-26A8-C435-E894-0570E3DEEC56" referredColumn="86B02FA8-2C8A-2766-E14D-82F9EC6C6BEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD0B1282-A12A-6B14-2D61-00C24C122902" name="LK_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>88FF8B1F-5878-16F8-C7A3-D71B4548933B</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46FBF911-8508-CABC-6920-375BB2545013"/>
+<colUsage columnID="1A0AA245-D577-24AE-B310-B06AAEA36D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24AC9783-3421-4C96-2788-3F9D77FE3AEE" name="LK_Generalna_direkcija_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>D7E96DAD-52D2-73F6-AA41-F6EDF82DD8C5</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0AA245-D577-24AE-B310-B06AAEA36D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

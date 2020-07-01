@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="367AB429-ECF9-F194-DB4C-915F6936DA09" name="Predaje">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Predavanja_NAZ_PRED" id="D8665EC5-37D6-1581-B8D1-75C22561DF2A">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BFC198C-CE56-4406-294D-BE8F7F4089E9" referredColumn="58ECB329-29BE-829D-CF78-471A644FC43A"/>
+</associations>
+</Column>
+<Column name="Predavanja_NAZ_OB" id="B89A2226-9E84-2E7C-5F9E-FE9DBBCDD39D">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BFC198C-CE56-4406-294D-BE8F7F4089E9" referredColumn="A26C22CB-5B49-770B-31BA-47503F5BB4D1"/>
+</associations>
+</Column>
+<Column name="Predavanja_PIB" id="50A779C5-8148-983D-5479-250EC4D642A1">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BFC198C-CE56-4406-294D-BE8F7F4089E9" referredColumn="EB8B1DBF-C058-111A-BFE0-5C72F9B74E32"/>
+</associations>
+</Column>
+<Column name="Predavanja_INT_BR1" id="617E98FF-224D-FE7F-7708-43B120B5258E">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BFC198C-CE56-4406-294D-BE8F7F4089E9" referredColumn="A298146D-7A2A-E4B3-A541-FEA2EC812455"/>
+</associations>
+</Column>
+<Column name="Sp_Sar_JMBG" id="0CA24A8F-45D1-7010-70A3-19D590B65488">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97472552-728D-7306-038F-4928F94D097F" referredColumn="71803D86-6338-12B1-9E06-6EEC7632BB86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74CFD808-B52A-D62C-70F1-C737F0763150" name="Predaje_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8665EC5-37D6-1581-B8D1-75C22561DF2A"/>
+<colUsage columnID="B89A2226-9E84-2E7C-5F9E-FE9DBBCDD39D"/>
+<colUsage columnID="50A779C5-8148-983D-5479-250EC4D642A1"/>
+<colUsage columnID="617E98FF-224D-FE7F-7708-43B120B5258E"/>
+<colUsage columnID="0CA24A8F-45D1-7010-70A3-19D590B65488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="283CBC88-F82B-C7EB-AA51-A6F49830B68C" name="Predaje_Predavanja_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>9A9DD922-E0AB-1A94-00FB-F0C31C5B3922</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8665EC5-37D6-1581-B8D1-75C22561DF2A"/>
+<colUsage columnID="B89A2226-9E84-2E7C-5F9E-FE9DBBCDD39D"/>
+<colUsage columnID="50A779C5-8148-983D-5479-250EC4D642A1"/>
+<colUsage columnID="617E98FF-224D-FE7F-7708-43B120B5258E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9989ED20-1F9D-78D1-698E-7AE0498D21A5" name="Predaje_Sp_Sar_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>9A9DD922-E0AB-1A94-00FB-F0C31C5B3922</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CA24A8F-45D1-7010-70A3-19D590B65488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

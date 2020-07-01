@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFE612FF-6AAC-32DD-AF63-ACC57E737254" name="Clan">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:15:34 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>35F76B35-DE52-CB92-8845-814EC360EA8A</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CL" id="BBB27535-BBC3-07E3-7F15-F771A00F687E">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:15:42 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_UC" id="5B5C93BD-191C-7250-FFA5-8C1B7864F5A8">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:21:46 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="CB369CD7-041A-DCE7-2BB2-5E58C4894999">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:22:17 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRZ" id="DA24E74A-5D88-363C-FCB5-0CE60BDEE949">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:22:34 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MBR" id="98050CCA-BACD-A2B4-5226-F9443F1B291A">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:22:46 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PIB" id="E47E5478-D9D0-F8A6-1F43-42FCCB5232F5">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:38:44 UTC</createdTime>
+<generatorID>34D7C71C-EB9B-9F45-7B14-8661DE6E4913</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>EF856F6D-F9E4-6B2D-C71F-5DBBE664A1A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INT_BR1" id="74410A1B-B333-0FFF-B374-7C81A24A9735">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:38:44 UTC</createdTime>
+<generatorID>34D7C71C-EB9B-9F45-7B14-8661DE6E4913</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>9B7C8F62-9D0E-B016-2B7F-CF0B83812B6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip_Cl" id="35F76B35-DE52-CB92-8845-814EC360EA8A">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:20:55 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AC03910D-DA69-175F-667E-62894AB736B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C16CA979-F3BF-5696-A09D-3DC273735E9B" name="{entity} PKv1">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:37:41 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>98050CCA-BACD-A2B4-5226-F9443F1B291A,34D7C71C-EB9B-9F45-7B14-8661DE6E4913</newElementsIDs>
+<usedAttributes>
+<attributeRef>98050CCA-BACD-A2B4-5226-F9443F1B291A</attributeRef>
+<attributeRef>E47E5478-D9D0-F8A6-1F43-42FCCB5232F5</attributeRef>
+<attributeRef>74410A1B-B333-0FFF-B374-7C81A24A9735</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

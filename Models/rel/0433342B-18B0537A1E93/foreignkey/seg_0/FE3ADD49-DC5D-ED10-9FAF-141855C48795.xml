@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE3ADD49-DC5D-ED10-9FAF-141855C48795" containerWithKeyObject="A5982DE7-3A4F-2A44-A425-51E76F7E6A93" localFKIndex="AA46DCCA-B2D7-525F-AC69-BDA753CE6C04" name="Koordinator_Clan_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>8916EF02-A7A6-290C-2354-467DB87C9652</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<referredTableLongName>Clan</referredTableLongName>
+<arc>6D6FA48B-5FA4-872C-3941-6EF3DB56150E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19B918B4-35AD-6107-B45D-55A5C4ACC42D</referredTableID>
+<keyObject>B6055144-E407-617A-726C-929D33B2E1F4</keyObject>
+<referredKeyID>B6055144-E407-617A-726C-929D33B2E1F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MBR,LK_PIB,LK_INT_BR1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Koordinator</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

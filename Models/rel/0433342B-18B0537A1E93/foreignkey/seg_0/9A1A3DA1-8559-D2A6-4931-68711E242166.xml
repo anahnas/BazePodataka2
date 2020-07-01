@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A1A3DA1-8559-D2A6-4931-68711E242166" containerWithKeyObject="515DB02F-B357-2A65-1F14-85EF00626561" localFKIndex="FD48A986-B964-FFD6-83C1-D7A0877940F9" name="Tim_LK_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>45E278C1-FBD8-7F27-E505-D8DC9B07A550</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<referredTableLongName>LK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8599F27F-ECA2-99CE-D1B0-545BDF0A162A</referredTableID>
+<keyObject>CD0B1282-A12A-6B14-2D61-00C24C122902</keyObject>
+<referredKeyID>CD0B1282-A12A-6B14-2D61-00C24C122902</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PIB,Generalna_direkcija_INT_BR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

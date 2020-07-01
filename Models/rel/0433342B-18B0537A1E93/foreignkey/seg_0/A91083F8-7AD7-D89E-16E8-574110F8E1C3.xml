@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A91083F8-7AD7-D89E-16E8-574110F8E1C3" containerWithKeyObject="B10A7D91-96D7-7FC7-4F1E-6338527B87D3" localFKIndex="A4A13C4A-9DFB-DD25-975E-CCEA7A0BE5E0" name="Nadgleda_Koordinator_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>E0432D57-0F24-14CC-C44B-5B4A6F45B42A</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<referredTableLongName>Koordinator</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5982DE7-3A4F-2A44-A425-51E76F7E6A93</referredTableID>
+<keyObject>13DFFC89-6B55-0397-0BE4-0FF3137182D1</keyObject>
+<referredKeyID>13DFFC89-6B55-0397-0BE4-0FF3137182D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MBR,PIB,INT_BR1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1748B106-AC8D-FEDA-6AEA-CA63142362F9" name="Drzi">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Predavanja_NAZ_PRED" id="65C28AF7-FF28-1BD7-83CA-13C18B07FE4C">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4A4E388-BA3D-9D38-67A8-1F6E181FECC9" referredColumn="58ECB329-29BE-829D-CF78-471A644FC43A"/>
+</associations>
+</Column>
+<Column name="Predavanja_NAZ_OB" id="807802C5-8AB5-4B66-97E0-FDA67CBD9F8F">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4A4E388-BA3D-9D38-67A8-1F6E181FECC9" referredColumn="A26C22CB-5B49-770B-31BA-47503F5BB4D1"/>
+</associations>
+</Column>
+<Column name="Predavanja_PIB" id="0050F5AB-E1FD-3AAD-2004-CDB217E541B0">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4A4E388-BA3D-9D38-67A8-1F6E181FECC9" referredColumn="EB8B1DBF-C058-111A-BFE0-5C72F9B74E32"/>
+</associations>
+</Column>
+<Column name="Predavanja_INT_BR1" id="EA017DE9-2755-B5BA-5201-6646243FAEF7">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4A4E388-BA3D-9D38-67A8-1F6E181FECC9" referredColumn="A298146D-7A2A-E4B3-A541-FEA2EC812455"/>
+</associations>
+</Column>
+<Column name="Mentorise_SIF_RC" id="561448B4-15AD-8D9A-28C2-A56ED77D073A">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35FE6C69-815F-67E1-ECD2-1CEB269110C6" referredColumn="E94F55D9-B15F-C939-E5A5-4FEE3A27A4A3"/>
+</associations>
+</Column>
+<Column name="Mentorise_NAZ_OB" id="9ED01BF5-D2E3-3254-310A-603F484FC22F">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35FE6C69-815F-67E1-ECD2-1CEB269110C6" referredColumn="DDA1E131-9F21-22C1-1B74-CADC2576F755"/>
+</associations>
+</Column>
+<Column name="Mentorise_PIB" id="00D7E09B-894C-E9C6-CCE4-68E7BF8CFDAD">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35FE6C69-815F-67E1-ECD2-1CEB269110C6" referredColumn="3B9B4F64-212E-3389-BBBB-63A8FE1F2E8D"/>
+</associations>
+</Column>
+<Column name="Mentorise_INT_BR1" id="346EA572-A816-A8E4-CE4A-5E29F33CE4FA">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35FE6C69-815F-67E1-ECD2-1CEB269110C6" referredColumn="A63FA921-B920-5895-C29B-9FA1B4E985DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="079AB743-3046-5E9B-8B98-1DB7DEF13DDE" name="Drzi_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C28AF7-FF28-1BD7-83CA-13C18B07FE4C"/>
+<colUsage columnID="807802C5-8AB5-4B66-97E0-FDA67CBD9F8F"/>
+<colUsage columnID="0050F5AB-E1FD-3AAD-2004-CDB217E541B0"/>
+<colUsage columnID="EA017DE9-2755-B5BA-5201-6646243FAEF7"/>
+<colUsage columnID="561448B4-15AD-8D9A-28C2-A56ED77D073A"/>
+<colUsage columnID="9ED01BF5-D2E3-3254-310A-603F484FC22F"/>
+<colUsage columnID="00D7E09B-894C-E9C6-CCE4-68E7BF8CFDAD"/>
+<colUsage columnID="346EA572-A816-A8E4-CE4A-5E29F33CE4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04F48802-5CAC-963F-B131-C9694C7DED61" name="Drzi_Predavanja_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>81C78B52-44E4-D479-4CF5-77BCF67A737F</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C28AF7-FF28-1BD7-83CA-13C18B07FE4C"/>
+<colUsage columnID="807802C5-8AB5-4B66-97E0-FDA67CBD9F8F"/>
+<colUsage columnID="0050F5AB-E1FD-3AAD-2004-CDB217E541B0"/>
+<colUsage columnID="EA017DE9-2755-B5BA-5201-6646243FAEF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA3EB465-D694-24A0-D205-AFA5A220E95C" name="Drzi_Mentorise_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>81C78B52-44E4-D479-4CF5-77BCF67A737F</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="561448B4-15AD-8D9A-28C2-A56ED77D073A"/>
+<colUsage columnID="9ED01BF5-D2E3-3254-310A-603F484FC22F"/>
+<colUsage columnID="00D7E09B-894C-E9C6-CCE4-68E7BF8CFDAD"/>
+<colUsage columnID="346EA572-A816-A8E4-CE4A-5E29F33CE4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

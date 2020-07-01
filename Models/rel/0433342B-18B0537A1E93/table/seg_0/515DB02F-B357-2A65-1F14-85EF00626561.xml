@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="515DB02F-B357-2A65-1F14-85EF00626561" name="Tim">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>02B6BEBE-5C5C-13A1-12F6-BE6D44C5B2E5</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAZ_T" id="644CD39D-FF75-7A82-A566-07B15DA77CAE">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>3A4186E7-0255-FDBF-5200-BAAFC186D246</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_OD" id="8528D1B9-8CAB-222F-CA94-9C12C3408F19">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>BAA37A57-1D22-0DD7-C3C2-7334B6B937B7</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LK_PIB" id="965C461D-2724-21A8-C353-680349820EBF">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>863D65ED-1715-C859-76D2-FE04A66E760D</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A1A3DA1-8559-D2A6-4931-68711E242166" referredColumn="46FBF911-8508-CABC-6920-375BB2545013"/>
+</associations>
+</Column>
+<Column name="LK_INT_BR1" id="DCD5C3B0-30E3-E5C8-E0F4-3651E916986B">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>0A2A196E-532D-E57F-7D41-D36583233078</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A1A3DA1-8559-D2A6-4931-68711E242166" referredColumn="1A0AA245-D577-24AE-B310-B06AAEA36D65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B7BD002-7B01-5334-5B2B-5AFBA2D7B164" name="Tim_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>49B2CC39-ADD4-62BA-BFE3-12702ABC6EF8</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="644CD39D-FF75-7A82-A566-07B15DA77CAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD48A986-B964-FFD6-83C1-D7A0877940F9" name="Tim_LK_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>45E278C1-FBD8-7F27-E505-D8DC9B07A550</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965C461D-2724-21A8-C353-680349820EBF"/>
+<colUsage columnID="DCD5C3B0-30E3-E5C8-E0F4-3651E916986B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

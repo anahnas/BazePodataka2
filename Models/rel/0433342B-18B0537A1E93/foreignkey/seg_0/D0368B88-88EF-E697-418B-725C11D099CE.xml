@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0368B88-88EF-E697-418B-725C11D099CE" containerWithKeyObject="BCD546A5-6380-24F6-49E7-306F36F7EDC7" localFKIndex="4A3FB1B9-0B20-F39D-397F-A5417485D598" name="Radi_Reg_Clan_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>575F9959-89E6-AC9E-B010-8FDAC12B99C1</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<referredTableLongName>Reg_Clan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1017F80B-D762-B0F4-0C44-0B0980E2739C</referredTableID>
+<keyObject>A46AB2B0-B94B-F4F2-5697-562E23C38FCE</keyObject>
+<referredKeyID>A46AB2B0-B94B-F4F2-5697-562E23C38FCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MBR,PIB,INT_BR1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

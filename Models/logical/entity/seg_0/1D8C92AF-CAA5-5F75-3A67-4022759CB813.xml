@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D8C92AF-CAA5-5F75-3A67-4022759CB813" name="Predavanja">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 21:53:29 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZ_PRED" id="21F5A6CF-35E8-4E27-0343-DE2E4C0E0A94">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 21:55:08 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZ_OB" id="57F32DD4-1DA7-4C57-D80D-7C216811A918">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:02:20 UTC</createdTime>
+<generatorID>BB6A8392-60AC-F723-31D7-ADDF92C3F8DE</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>73D944DE-7B6D-3D5C-9D3E-553FEB397AAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PIB" id="210A1DD4-96EC-7C95-F75E-BCFC2D2CC916">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:58:27 UTC</createdTime>
+<generatorID>BB6A8392-60AC-F723-31D7-ADDF92C3F8DE</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>1B5C456B-D735-8A46-FB60-AB366E82A532</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INT_BR1" id="DC08651D-8B77-A726-F9A5-9A73607E238C">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 22:58:27 UTC</createdTime>
+<generatorID>BB6A8392-60AC-F723-31D7-ADDF92C3F8DE</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>1FE89A1C-AAC2-9FA9-2F0B-7FCB0AB436A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8036A24-7065-E26D-79A5-6D800E73E251" name="{entity} PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 21:55:26 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>21F5A6CF-35E8-4E27-0343-DE2E4C0E0A94,BB6A8392-60AC-F723-31D7-ADDF92C3F8DE</newElementsIDs>
+<usedAttributes>
+<attributeRef>21F5A6CF-35E8-4E27-0343-DE2E4C0E0A94</attributeRef>
+<attributeRef>57F32DD4-1DA7-4C57-D80D-7C216811A918</attributeRef>
+<attributeRef>210A1DD4-96EC-7C95-F75E-BCFC2D2CC916</attributeRef>
+<attributeRef>DC08651D-8B77-A726-F9A5-9A73607E238C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

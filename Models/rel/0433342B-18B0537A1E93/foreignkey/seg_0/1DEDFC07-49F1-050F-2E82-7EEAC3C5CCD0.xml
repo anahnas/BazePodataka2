@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DEDFC07-49F1-050F-2E82-7EEAC3C5CCD0" containerWithKeyObject="57C4F85A-2CB5-F106-812D-F243AF94B11B" localFKIndex="AD458195-624F-FFFE-C9EF-B177D5744A59" name="Mentorise_Reg_Clan_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>FD7B53EF-5D77-564E-D027-AC34862A72C6</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<referredTableLongName>Reg_Clan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1017F80B-D762-B0F4-0C44-0B0980E2739C</referredTableID>
+<keyObject>0811F807-930C-8F65-653C-82647F27E62C</keyObject>
+<referredKeyID>0811F807-930C-8F65-653C-82647F27E62C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIF_RC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

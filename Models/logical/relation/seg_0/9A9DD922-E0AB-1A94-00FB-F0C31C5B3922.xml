@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Predaje" directorySegmentName="seg_0" id="9A9DD922-E0AB-1A94-00FB-F0C31C5B3922">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 23:05:34 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1D8C92AF-CAA5-5F75-3A67-4022759CB813</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB7D32DE-DE97-FB88-CB6B-398685D451DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

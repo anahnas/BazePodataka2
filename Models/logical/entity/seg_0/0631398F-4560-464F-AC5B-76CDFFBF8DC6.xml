@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0631398F-4560-464F-AC5B-76CDFFBF8DC6" name="LK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 18:44:40 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PIB" id="EF856F6D-F9E4-6B2D-C71F-5DBBE664A1A0">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 18:45:20 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZ_MJESTA" id="99CEDABF-FB40-0E46-4884-00AEEEAD9E7E">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 18:46:47 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INT_BR1" id="9B7C8F62-9D0E-B016-2B7F-CF0B83812B6D">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 19:26:10 UTC</createdTime>
+<generatorID>D7E96DAD-52D2-73F6-AA41-F6EDF82DD8C5</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<referedAttribute>557E791B-A05B-168C-B241-545F728CE01D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88FF8B1F-5878-16F8-C7A3-D71B4548933B" name="{entity} PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-28 18:47:36 UTC</createdTime>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<engineerTo>
+<item key="0433342B-58BE-5F15-966C-18B0537A1E93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EF856F6D-F9E4-6B2D-C71F-5DBBE664A1A0,D7E96DAD-52D2-73F6-AA41-F6EDF82DD8C5</newElementsIDs>
+<usedAttributes>
+<attributeRef>EF856F6D-F9E4-6B2D-C71F-5DBBE664A1A0</attributeRef>
+<attributeRef>9B7C8F62-9D0E-B016-2B7F-CF0B83812B6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

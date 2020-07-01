@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7E6FA05-FF63-1FF3-1E78-D44037465599" name="Predavanja">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>1D8C92AF-CAA5-5F75-3A67-4022759CB813</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAZ_PRED" id="58ECB329-29BE-829D-CF78-471A644FC43A">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>21F5A6CF-35E8-4E27-0343-DE2E4C0E0A94</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Obuka_NAZ_OB" id="A26C22CB-5B49-770B-31BA-47503F5BB4D1">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>57F32DD4-1DA7-4C57-D80D-7C216811A918</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEA81F5B-24A0-EA92-E754-3B3DC1D96BE5" referredColumn="6E1BFD52-40AD-41CE-2D5C-5FC7B44BA84C"/>
+</associations>
+</Column>
+<Column name="Obuka_LK_PIB" id="EB8B1DBF-C058-111A-BFE0-5C72F9B74E32">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>210A1DD4-96EC-7C95-F75E-BCFC2D2CC916</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEA81F5B-24A0-EA92-E754-3B3DC1D96BE5" referredColumn="FE73B267-E6C7-51CC-3FA0-ED0AD5BE2C3F"/>
+</associations>
+</Column>
+<Column name="Obuka_LK_INT_BR1" id="A298146D-7A2A-E4B3-A541-FEA2EC812455">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>DC08651D-8B77-A726-F9A5-9A73607E238C</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEA81F5B-24A0-EA92-E754-3B3DC1D96BE5" referredColumn="85ABE5E2-D010-74AE-B857-FD6100287D1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A714FDFF-93A6-533C-C600-72D856DBE6AF" name="Predavanja_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>A8036A24-7065-E26D-79A5-6D800E73E251</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58ECB329-29BE-829D-CF78-471A644FC43A"/>
+<colUsage columnID="A26C22CB-5B49-770B-31BA-47503F5BB4D1"/>
+<colUsage columnID="EB8B1DBF-C058-111A-BFE0-5C72F9B74E32"/>
+<colUsage columnID="A298146D-7A2A-E4B3-A541-FEA2EC812455"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E54394C-374E-2B5E-43B8-BEFD8C002942" name="Predavanja_Obuka_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>BB6A8392-60AC-F723-31D7-ADDF92C3F8DE</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A26C22CB-5B49-770B-31BA-47503F5BB4D1"/>
+<colUsage columnID="EB8B1DBF-C058-111A-BFE0-5C72F9B74E32"/>
+<colUsage columnID="A298146D-7A2A-E4B3-A541-FEA2EC812455"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

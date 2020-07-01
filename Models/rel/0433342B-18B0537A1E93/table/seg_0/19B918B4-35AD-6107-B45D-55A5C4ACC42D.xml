@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B918B4-35AD-6107-B45D-55A5C4ACC42D" name="Clan">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>DFE612FF-6AAC-32DD-AF63-ACC57E737254</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CL" id="3CA37735-E710-B79F-BAAE-F1D67D9F6A45">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>BBB27535-BBC3-07E3-7F15-F771A00F687E</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_UC" id="61E1B9BE-532C-8FFE-D11F-4092CBFEF9E2">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>5B5C93BD-191C-7250-FFA5-8C1B7864F5A8</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME" id="C4CCB761-78E9-0198-8510-83D4DBAF8DFE">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>CB369CD7-041A-DCE7-2BB2-5E58C4894999</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ" id="B0893F16-DD86-8E1D-56E3-1DBFC9172A65">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>DA24E74A-5D88-363C-FCB5-0CE60BDEE949</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MBR" id="4AD166F7-F51A-B4EF-5820-1E405365F2B1">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>98050CCA-BACD-A2B4-5226-F9443F1B291A</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LK_PIB" id="D24F6AC4-E0DD-8507-0D25-C4F501224638">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>E47E5478-D9D0-F8A6-1F43-42FCCB5232F5</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="549DF825-FD11-8D8B-159A-7CB1311A64D5" referredColumn="46FBF911-8508-CABC-6920-375BB2545013"/>
+</associations>
+</Column>
+<Column name="LK_INT_BR1" id="D4C90F59-AD7A-89F3-EB7A-F2E1ACD5397E">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>74410A1B-B333-0FFF-B374-7C81A24A9735</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="549DF825-FD11-8D8B-159A-7CB1311A64D5" referredColumn="1A0AA245-D577-24AE-B310-B06AAEA36D65"/>
+</associations>
+</Column>
+<Column name="Tip_Cl" id="457C7F2F-CE69-2013-95EE-75FCB21C9B21">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>35F76B35-DE52-CB92-8845-814EC360EA8A</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<constraintName>CH_INH_Clan</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<domain>AC03910D-DA69-175F-667E-62894AB736B5</domain>
+<listOfValues>
+<valueDef value="Clan_Up_Od" description="entity Clan_Up_Od"/>
+<valueDef value="Koordinator" description="entity Koordinator"/>
+<valueDef value="Praktikant" description="entity Praktikant"/>
+<valueDef value="Reg_Clan" description="entity Reg_Clan"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6055144-E407-617A-726C-929D33B2E1F4" name="Clan_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>C16CA979-F3BF-5696-A09D-3DC273735E9B</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AD166F7-F51A-B4EF-5820-1E405365F2B1"/>
+<colUsage columnID="D24F6AC4-E0DD-8507-0D25-C4F501224638"/>
+<colUsage columnID="D4C90F59-AD7A-89F3-EB7A-F2E1ACD5397E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06C69EB0-F50B-5A5F-E90B-BC7F6023434E" name="Clan_LK_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>34D7C71C-EB9B-9F45-7B14-8661DE6E4913</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D24F6AC4-E0DD-8507-0D25-C4F501224638"/>
+<colUsage columnID="D4C90F59-AD7A-89F3-EB7A-F2E1ACD5397E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

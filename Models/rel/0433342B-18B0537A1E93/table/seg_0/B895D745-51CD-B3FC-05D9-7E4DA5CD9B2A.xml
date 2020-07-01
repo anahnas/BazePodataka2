@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B895D745-51CD-B3FC-05D9-7E4DA5CD9B2A" name="Obuka">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>70B5DAB0-4A4B-5145-5B60-DD2A2173769F</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAZ_OB" id="6E1BFD52-40AD-41CE-2D5C-5FC7B44BA84C">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>73D944DE-7B6D-3D5C-9D3E-553FEB397AAC</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LK_PIB" id="FE73B267-E6C7-51CC-3FA0-ED0AD5BE2C3F">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>1B5C456B-D735-8A46-FB60-AB366E82A532</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C726500-11E4-A458-6E0A-F506AC28BE07" referredColumn="46FBF911-8508-CABC-6920-375BB2545013"/>
+</associations>
+</Column>
+<Column name="LK_INT_BR1" id="85ABE5E2-D010-74AE-B857-FD6100287D1C">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>1FE89A1C-AAC2-9FA9-2F0B-7FCB0AB436A8</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C726500-11E4-A458-6E0A-F506AC28BE07" referredColumn="1A0AA245-D577-24AE-B310-B06AAEA36D65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="175212DC-96E3-CB81-44B2-E0797E7E6665" name="Obuka_PK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>9EC2ECA4-6347-27D8-3477-4FA34FE78414</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E1BFD52-40AD-41CE-2D5C-5FC7B44BA84C"/>
+<colUsage columnID="FE73B267-E6C7-51CC-3FA0-ED0AD5BE2C3F"/>
+<colUsage columnID="85ABE5E2-D010-74AE-B857-FD6100287D1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2345A5B-68D4-F221-B9F8-5B8BA4814858" name="Obuka_LK_FK">
+<createdBy>Ana Tomic</createdBy>
+<createdTime>2020-01-29 00:12:07 UTC</createdTime>
+<generatorID>421E14A0-3E34-8AC8-DD7D-7B4ADBACCF5E</generatorID>
+<ownerDesignName>graweOsiguranje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE73B267-E6C7-51CC-3FA0-ED0AD5BE2C3F"/>
+<colUsage columnID="85ABE5E2-D010-74AE-B857-FD6100287D1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
